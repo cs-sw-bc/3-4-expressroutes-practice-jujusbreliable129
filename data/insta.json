@@ -1,0 +1,213 @@
+{
+  "users": [
+    { "id": 1, "username": "skywalker01", "fullName": "Aiden Brooks", "bio": "Lost in space 🚀" },
+    { "id": 2, "username": "wanderlust_girl", "fullName": "Sofia Reed", "bio": "Travel. Eat. Repeat." },
+    { "id": 3, "username": "fitness_fury", "fullName": "Liam Carter", "bio": "Gym motivation 💪" },
+    { "id": 4, "username": "tech_tinker", "fullName": "Noah Kim", "bio": "Building cool stuff ⚙️" },
+    { "id": 5, "username": "artsy_aurora", "fullName": "Aurora Lane", "bio": "Watercolors + coffee 🎨" },
+    { "id": 6, "username": "gourmet_guy", "fullName": "Ethan Shaw", "bio": "Chef in training 🔪" },
+    { "id": 7, "username": "city_chronicles", "fullName": "Mia Wilson", "bio": "City lights & stories" },
+    { "id": 8, "username": "pixel_prodigy", "fullName": "Zara Patel", "bio": "Designer & dreamer" },
+    { "id": 9, "username": "silent_reader", "fullName": "Oliver Hayes", "bio": "Books > People 📚" },
+    { "id": 10, "username": "coffee_rituals", "fullName": "Ella Bennett", "bio": "Flat white enthusiast" },
+    { "id": 11, "username": "music_mystic", "fullName": "Caleb Stone", "bio": "Beats & vibes 🎧" },
+    { "id": 12, "username": "wild_wanderer", "fullName": "Luna Brooks", "bio": "Mountains > WiFi" },
+    { "id": 13, "username": "the_coder", "fullName": "Eli Turner", "bio": "JavaScript forever" },
+    { "id": 14, "username": "sunkissed_sunset", "fullName": "Ruby Clarke", "bio": "Chasing sunsets 🌅" },
+    { "id": 15, "username": "minimalist_mind", "fullName": "Mason Grant", "bio": "Less but better" },
+    { "id": 16, "username": "vegan_vibes", "fullName": "Leah Gomez", "bio": "Plant-powered 🌱" },
+    { "id": 17, "username": "retro_ryder", "fullName": "Wyatt Foster", "bio": "Vintage soul" },
+    { "id": 18, "username": "snap_sniper", "fullName": "Chloe Adams", "bio": "Freeze the moment 📸" },
+    { "id": 19, "username": "hi_tech_hero", "fullName": "Finn Harris", "bio": "AI + hardware" },
+    { "id": 20, "username": "mood_maker", "fullName": "Layla Reed", "bio": "Aesthetic curator" },
+    { "id": 21, "username": "petal_poet", "fullName": "Amelia Rose", "bio": "Floral magic 🌸" },
+    { "id": 22, "username": "mechanic_miles", "fullName": "Miles Rivera", "bio": "Turbocharged life" },
+    { "id": 23, "username": "crypto_catalyst", "fullName": "Owen Carter", "bio": "Charts & chaos 💹" },
+    { "id": 24, "username": "sketchy_sky", "fullName": "Ava Morgan", "bio": "Sketchbooks everywhere" },
+    { "id": 25, "username": "calm_current", "fullName": "Henry Davis", "bio": "Mindful living" }
+  ],
+
+  "posts": [
+    {
+      "id": 101,
+      "userId": 1,
+      "caption": "Sunset coding session 🌅",
+      "hashtags": ["#coding", "#sunset"],
+      "likes": 15,
+      "comments": [
+        { "id": 1, "userId": 2, "text": "Love this vibe!" },
+        { "id": 2, "userId": 3, "text": "Great shot!" }
+      ]
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "caption": "Mountains calling 🏔️",
+      "hashtags": ["#travel", "#mountains"],
+      "likes": 42,
+      "comments": [
+        { "id": 1, "userId": 1, "text": "This looks unreal!" }
+      ]
+    },
+    {
+      "id": 103,
+      "userId": 3,
+      "caption": "Leg day again 😭",
+      "hashtags": ["#fitness", "#grind"],
+      "likes": 9,
+      "comments": []
+    },
+
+    {
+      "id": 104,
+      "userId": 4,
+      "caption": "Debugging life one bug at a time 🐞",
+      "hashtags": ["#developer", "#debug"],
+      "likes": 33,
+      "comments": [
+        { "id": 1, "userId": 13, "text": "The struggle is real." }
+      ]
+    },
+    {
+      "id": 105,
+      "userId": 5,
+      "caption": "New watercolor piece 🎨",
+      "hashtags": ["#art", "#watercolor"],
+      "likes": 54,
+      "comments": [
+        { "id": 1, "userId": 18, "text": "Beautiful colors!" },
+        { "id": 2, "userId": 7, "text": "Love your work 😍" }
+      ]
+    },
+    {
+      "id": 106,
+      "userId": 6,
+      "caption": "Avocado toast experiments 🥑",
+      "hashtags": ["#foodie", "#chef"],
+      "likes": 21,
+      "comments": []
+    },
+    {
+      "id": 107,
+      "userId": 7,
+      "caption": "Toronto at 2 AM ✨",
+      "hashtags": ["#citylife", "#night"],
+      "likes": 77,
+      "comments": [
+        { "id": 1, "userId": 10, "text": "This looks magical" }
+      ]
+    },
+    {
+      "id": 108,
+      "userId": 8,
+      "caption": "UI redesign concept",
+      "hashtags": ["#design", "#uiux"],
+      "likes": 25,
+      "comments": []
+    },
+    {
+      "id": 109,
+      "userId": 9,
+      "caption": "Found my new favorite book 📚",
+      "hashtags": ["#reading", "#booklover"],
+      "likes": 18,
+      "comments": [
+        { "id": 1, "userId": 5, "text": "Adding this to my list!" }
+      ]
+    },
+    {
+      "id": 110,
+      "userId": 10,
+      "caption": "Mocha mornings ☕",
+      "hashtags": ["#coffee", "#morningritual"],
+      "likes": 30,
+      "comments": []
+    },
+    {
+      "id": 111,
+      "userId": 11,
+      "caption": "New beat drop 🎶",
+      "hashtags": ["#music", "#producer"],
+      "likes": 65,
+      "comments": [
+        { "id": 1, "userId": 14, "text": "Fire! 🔥" }
+      ]
+    },
+    {
+      "id": 112,
+      "userId": 12,
+      "caption": "Camping under the stars",
+      "hashtags": ["#camping", "#outdoors"],
+      "likes": 41,
+      "comments": []
+    },
+    {
+      "id": 113,
+      "userId": 13,
+      "caption": "Checkpoint reached ✔️",
+      "hashtags": ["#coding", "#progress"],
+      "likes": 22,
+      "comments": []
+    },
+    {
+      "id": 114,
+      "userId": 14,
+      "caption": "Sunset from the balcony 🌇",
+      "hashtags": ["#sunset", "#aesthetic"],
+      "likes": 52,
+      "comments": []
+    },
+    {
+      "id": 115,
+      "userId": 15,
+      "caption": "Decluttered my desk today 🧘‍♂️",
+      "hashtags": ["#minimalism", "#clean"],
+      "likes": 29,
+      "comments": []
+    },
+    {
+      "id": 116,
+      "userId": 16,
+      "caption": "Vegan smoothie recipe 🌱",
+      "hashtags": ["#vegan", "#smoothie"],
+      "likes": 38,
+      "comments": [
+        { "id": 1, "userId": 6, "text": "I need this recipe!" }
+      ]
+    },
+    {
+      "id": 117,
+      "userId": 17,
+      "caption": "Old soul, new adventures.",
+      "hashtags": ["#vintage", "#retro"],
+      "likes": 11,
+      "comments": []
+    },
+    {
+      "id": 118,
+      "userId": 18,
+      "caption": "Caught the perfect moment 📸",
+      "hashtags": ["#photography", "#moment"],
+      "likes": 66,
+      "comments": [
+        { "id": 1, "userId": 7, "text": "This is stunning!" }
+      ]
+    },
+    {
+      "id": 119,
+      "userId": 19,
+      "caption": "New robot arm prototype",
+      "hashtags": ["#tech", "#robotics"],
+      "likes": 47,
+      "comments": []
+    },
+    {
+      "id": 120,
+      "userId": 20,
+      "caption": "Color palette for the week 🎨",
+      "hashtags": ["#aesthetic", "#design"],
+      "likes": 24,
+      "comments": []
+    }
+  ]
+}
